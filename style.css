@@ -1,0 +1,93 @@
+/*Begin here*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu, .drop-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-zf-prometo);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---white);
+    text-align: center;
+    font: normal normal medium 14px/22px ZF Prometo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: var(---zf-cyan) 0% 0% no-repeat padding-box;
+    background: #00ABE7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 0px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    width: 200px;
+    height: 44px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    padding: 12px 10px;   
+     color: #fff;
+    display: block;
+}
+
+.drop-menu {
+    width: 200px;
+    height: 250px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.drop-menu-item {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/19px var(--unnamed-font-family-verdana);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---zf-cs-text-dark-gray);
+    text-align: left;
+    font: normal normal normal 13px/19px Verdana;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.drop-menu-item:hover {
+    background: var(---zf-cs-gray) 0% 0% no-repeat padding-box;
+    background: #EEF1F4 0% 0% no-repeat padding-box;
+    opacity: 1;}
+
+.drop-menu-item a {
+    color: #555;
+}
+
+.menu-item:active .drop-menu {
+    display: block;
+}
+
+.menu-item:active {
+    background: #0000FF !important;
+}
+
+.disabled > ul{
+    display:none !important;
+
+}
+.disabled {
+    background: var(---zf-cyan-25) 0% 0% no-repeat padding-box !important;
+    background: #BFEAF9 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 0px 0px #00000029 !;
+    border-radius: 30px !important;
+    opacity: 1;
+}
+
+.menu-item:hover {
+    background: var(---zf-cyan-50) 0% 0% no-repeat padding-box;
+    background: #7FD5F3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 0px #00000029;
+    opacity: 1;
+
+}
